@@ -76,3 +76,7 @@ small.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospa
 
 /* safety */
 img{max-width:100%;height:auto}
+
+/* brand scope */
+.brand{display:none}
+.nav .brand{display:flex;flex-direction:column;gap:2px}
