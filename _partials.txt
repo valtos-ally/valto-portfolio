@@ -26,6 +26,7 @@
       · <a href="https://valtoai.com/" target="_blank" rel="noopener">ValtoAI.com</a>
     </div>
     <div style="margin-top:8px">© <span id="y"></span> Valto Loikkanen</div>
+    <div style="margin-top:8px">Managed by Valto's personal AI ally ("Ally"). Ally is Valto's personal AI in various technical forms (e.g., OpenClaw, Prifina, and other systems).</div>
   </div>
 </div>
 <script>document.getElementById('y').textContent = String(new Date().getFullYear())</script>
