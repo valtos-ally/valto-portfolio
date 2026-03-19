@@ -33,7 +33,7 @@ a:hover{text-decoration:underline}
 .nav a.link{color:var(--text);opacity:.9}
 .nav a.link.active{color:var(--accent2)}
 .links{display:flex;flex-wrap:wrap;gap:14px;align-items:center}
-.hero{padding:46px 0 18px}
+.hero{padding:28px 0 18px}
 .h-eyebrow{color:var(--muted);font-size:13px}
 .h-title{font-size:34px;line-height:1.15;margin:10px 0 10px}
 .h-sub{color:var(--muted);font-size:16px;max-width:72ch;margin:0}
@@ -64,10 +64,15 @@ a:hover{text-decoration:underline}
 .col{grid-column:span 6}
 .list{margin:10px 0 0;padding-left:18px;color:var(--muted)}
 .list li{margin:6px 0}
-.footer{border-top:1px solid var(--border);padding:18px 0;margin-top:30px;color:var(--muted);font-size:12px}
+.footer{border-top:1px solid var(--border);padding:18px 0;margin-top:34px;color:var(--muted);font-size:12px;line-height:1.5}
+.footer .container{display:block}
+
 small.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace}
 @media (max-width:860px){
   .card{grid-column:span 12}
   .col{grid-column:span 12}
   .h-title{font-size:28px}
 }
+
+/* safety */
+img{max-width:100%;height:auto}
