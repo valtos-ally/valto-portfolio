@@ -3,25 +3,107 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Valto — Hello</title>
-  <style>
-    body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;max-width:860px;margin:64px auto;padding:0 20px;line-height:1.5}
-    h1{margin:0 0 8px}
-    .muted{color:#666}
-    .card{border:1px solid #e5e5e5;border-radius:12px;padding:18px 16px;margin-top:18px}
-    a{color:#0b5fff}
-  </style>
+  <title>Valto Loikkanen — AI-native product builder</title>
+  <meta name="description" content="Valto Loikkanen — AI-native product builder and UX-driven system architect. Portfolio: products, conversational systems, AI twins, customer experience systems." />
+  <meta property="og:title" content="Valto Loikkanen — AI-native product builder" />
+  <meta property="og:description" content="Builder-first portfolio: AI-native products, UX-driven architecture, conversational systems, AI twins, customer experience systems." />
+  <meta property="og:type" content="website" />
+  <link rel="stylesheet" href="assets/css/site.css" />
 </head>
 <body>
-  <h1>Valto — Hello World</h1>
-  <div class="muted">Published via GitHub Pages.</div>
+<!-- NAV -->
+<div class="nav">
+  <div class="container nav-inner">
+    <div class="brand">
+      <strong>Valto Loikkanen</strong>
+      <span>AI-native product builder • UX-driven architecture</span>
+    </div>
+    <div class="links">
+      <a class="link" href="./index.html">Home</a>
+      <a class="link" href="./projects.html">Projects</a>
+      <a class="link" href="./approach.html">Approach</a>
+      <a class="link" href="./speaking.html">Speaking</a>
+      <a class="link" href="./about.html">About</a>
+      <a class="link" href="./contact.html">Contact</a>
 
-  <div class="card">
-    <p>This is a placeholder portfolio site. Next: add projects, talks, and contact links.</p>
-    <ul>
-      <li><a href="https://www.linkedin.com/in/valto/">LinkedIn</a></li>
-      <li><a href="https://valtoai.com/">ValtoAI.com</a></li>
-    </ul>
+<div class="container hero">
+  <div class="h-eyebrow">Portfolio</div>
+  <h1 class="h-title">I build AI-native products and customer experiences—grounded in UX and system design.</h1>
+  <p class="h-sub">I’ve worked across product, design, and digital ecosystems for years. The work I enjoy most: shipping real systems that solve real problems. Some projects are private; this portfolio focuses on patterns, decisions, and outcomes.</p>
+
+  <div class="cta">
+    <a class="btn primary" href="./projects.html">View projects</a>
+    <a class="btn" href="./approach.html">How I work</a>
+    <a class="btn" href="./contact.html">Contact</a>
   </div>
+
+  <div class="strip">
+    <div class="pill">AI-native product builder</div>
+    <div class="pill">Conversational systems</div>
+    <div class="pill">Personal AI & AI twins</div>
+    <div class="pill">UX-driven architecture</div>
+    <div class="pill">Talking products & venues</div>
+  </div>
+
+  <div class="grid">
+    <div class="card">
+      <h3>Personal AI & AI Twins</h3>
+      <p>Interfaces and systems where AI becomes a durable extension of a person—useful, contextual, and aligned.</p>
+    </div>
+    <div class="card">
+      <h3>Talking products & venues</h3>
+      <p>Conversational experiences embedded in real environments—turning information into interaction.</p>
+    </div>
+    <div class="card">
+      <h3>Customer experience AI systems</h3>
+      <p>End-to-end service flows that help teams deliver better support, insights, and operational clarity.</p>
+    </div>
+    <div class="card">
+      <h3>UX-driven system architecture</h3>
+      <p>System design that starts from the user journey and product logic—then scales safely.</p>
+    </div>
+  </div>
+</div>
+
+<div class="container section">
+  <h2>What to expect here</h2>
+  <div class="cols">
+    <div class="col">
+      <p><strong style="color:var(--text)">Concrete case studies</strong>—not hype.</p>
+      <ul class="list">
+        <li>What problem existed</li>
+        <li>What we built and why</li>
+        <li>Key design and architecture decisions</li>
+        <li>Outcomes and learnings</li>
+      </ul>
+    </div>
+    <div class="col">
+      <p><strong style="color:var(--text)">Private work, explained responsibly.</strong></p>
+      <ul class="list">
+        <li>No sensitive code or customer data</li>
+        <li>Clear system diagrams and patterns</li>
+        <li>Transferable lessons for builders</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+  <div class="container">
+    <div>Builder-first portfolio. Practical AI. Product + UX + systems.</div>
+    <div style="margin-top:8px">
+      <a href="https://www.linkedin.com/in/valto/" target="_blank" rel="noopener">LinkedIn</a>
+      · <a href="https://valtoai.com/" target="_blank" rel="noopener">ValtoAI.com</a>
+    </div>
+    <div style="margin-top:8px">© <span id="y"></span> Valto Loikkanen</div>
+  </div>
+</div>
+<script>document.getElementById('y').textContent = String(new Date().getFullYear())</script>
+<script>(function(){var p=location.pathname.split("/").pop()||"index.html";document.querySelectorAll(".nav a.link").forEach(function(a){var h=a.getAttribute("href")||"";if(h.endsWith(p))a.classList.add("active");});})();</script>
 </body>
 </html>

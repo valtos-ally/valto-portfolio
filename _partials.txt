@@ -1,0 +1,31 @@
+<!-- NAV -->
+<div class="nav">
+  <div class="container nav-inner">
+    <div class="brand">
+      <strong>Valto Loikkanen</strong>
+      <span>AI-native product builder • UX-driven architecture</span>
+    </div>
+    <div class="links">
+      <a class="link" href="./index.html">Home</a>
+      <a class="link" href="./projects.html">Projects</a>
+      <a class="link" href="./approach.html">Approach</a>
+      <a class="link" href="./speaking.html">Speaking</a>
+      <a class="link" href="./about.html">About</a>
+      <a class="link" href="./contact.html">Contact</a>
+      <a class="link" href="https://www.linkedin.com/in/valto/" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+  <div class="container">
+    <div>Builder-first portfolio. Practical AI. Product + UX + systems.</div>
+    <div style="margin-top:8px">
+      <a href="https://www.linkedin.com/in/valto/" target="_blank" rel="noopener">LinkedIn</a>
+      · <a href="https://valtoai.com/" target="_blank" rel="noopener">ValtoAI.com</a>
+    </div>
+    <div style="margin-top:8px">© <span id="y"></span> Valto Loikkanen</div>
+  </div>
+</div>
+<script>document.getElementById('y').textContent = String(new Date().getFullYear())</script>

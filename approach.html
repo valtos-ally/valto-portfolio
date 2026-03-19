@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Approach — Valto Loikkanen</title>
+  <meta name="description" content="How I work: AI-native building with UX-driven architecture." />
+  <link rel="stylesheet" href="assets/css/site.css" />
+</head>
+<body>
+<!-- NAV -->
+<div class="nav">
+  <div class="container nav-inner">
+    <div class="brand">
+      <strong>Valto Loikkanen</strong>
+      <span>AI-native product builder • UX-driven architecture</span>
+    </div>
+    <div class="links">
+      <a class="link" href="./index.html">Home</a>
+      <a class="link" href="./projects.html">Projects</a>
+      <a class="link" href="./approach.html">Approach</a>
+      <a class="link" href="./speaking.html">Speaking</a>
+      <a class="link" href="./about.html">About</a>
+      <a class="link" href="./contact.html">Contact</a>
+
+<div class="container section">
+  <h1 style="margin:0 0 8px">Approach</h1>
+  <p>I build from the user journey backwards: clarify the product logic, shape the experience, then design the system that can deliver it reliably.</p>
+
+  <div class="cols">
+    <div class="col">
+      <h2>AI-native, but grounded</h2>
+      <ul class="list">
+        <li>Start with the job-to-be-done and real constraints</li>
+        <li>Use AI to accelerate prototyping and iteration</li>
+        <li>Ship small, learn fast, harden what works</li>
+      </ul>
+    </div>
+    <div class="col">
+      <h2>UX-driven architecture</h2>
+      <ul class="list">
+        <li>Experience flows define system boundaries</li>
+        <li>Data, identity, and memory are product decisions</li>
+        <li>Design for observability and long-term maintainability</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section" style="padding-top:18px">
+    <h2>Typical build loop</h2>
+    <ol class="list">
+      <li>Define the interaction and success criteria</li>
+      <li>Prototype the conversation / UI flow</li>
+      <li>Map the system and data flows</li>
+      <li>Implement with safety, logging, and iteration in mind</li>
+      <li>Measure outcomes and refine</li>
+    </ol>
+    <div class="cta">
+      <a class="btn primary" href="./contact.html">Contact</a>
+      <a class="btn" href="./projects.html">See projects</a>
+    </div>
+  </div>
+</div>
+
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+  <div class="container">
+    <div>Builder-first portfolio. Practical AI. Product + UX + systems.</div>
+    <div style="margin-top:8px">
+      <a href="https://www.linkedin.com/in/valto/" target="_blank" rel="noopener">LinkedIn</a>
+      · <a href="https://valtoai.com/" target="_blank" rel="noopener">ValtoAI.com</a>
+    </div>
+    <div style="margin-top:8px">© <span id="y"></span> Valto Loikkanen</div>
+  </div>
+</div>
+<script>document.getElementById('y').textContent = String(new Date().getFullYear())</script>
+<script>(function(){var p=location.pathname.split("/").pop()||"index.html";document.querySelectorAll(".nav a.link").forEach(function(a){var h=a.getAttribute("href")||"";if(h.endsWith(p))a.classList.add("active");});})();</script>
+</body>
+</html>
